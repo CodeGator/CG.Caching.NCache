@@ -1,0 +1,69 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<TargetFrameworks>net5.0</TargetFrameworks>
+    <RootNamespace>CG.Caching.NCache</RootNamespace>
+    <Authors>Martin Cook</Authors>
+    <Company>CodeGator</Company>
+    <Description>This package contains NCache extensions for the CG.Cache package.
+
+Platforms supported:
+      .NET 5.x or above</Description>
+    <Copyright>Copyright © 2021 by CodeGator. All rights reserved.</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/CodeGator/CG.Caching.NCache</PackageProjectUrl>
+    <PackageTags>cach, NCache, CG.Caching.NCache, CodeGator</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <RepositoryUrl>https://github.com/CodeGator/CG.Caching.NCache</RepositoryUrl>
+    <PackageIcon>packageDefaultIcon-50x50.png</PackageIcon>
+    <Product>CG.Caching.NCache</Product>
+    <PackageIconUrl />
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\net5.0\CG.Caching.NCache.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net5.0|AnyCPU'">
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="DistributedCacheExtensions.cs" />
+    <Compile Remove="MemoryCacheExtensions.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CG.Caching" Version="2021.1.3" />
+    <PackageReference Include="NCache.Microsoft.Extensions.Caching" Version="5.2.0" />
+    <PackageReference Include="Nerdbank.GitVersioning" Version="3.4.203">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\packageDefaultIcon-50x50.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="client.ncconf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="config.ncconf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="tls.ncconf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
