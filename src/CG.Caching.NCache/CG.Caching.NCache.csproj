@@ -35,9 +35,9 @@ Platforms supported:
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="CG.Caching" Version="2021.1.3" />
+    <PackageReference Include="CG.Caching" Version="2021.1.5" />
     <PackageReference Include="NCache.Microsoft.Extensions.Caching" Version="5.2.0" />
-    <PackageReference Include="Nerdbank.GitVersioning" Version="3.4.203">
+    <PackageReference Include="Nerdbank.GitVersioning" Version="3.4.205">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
