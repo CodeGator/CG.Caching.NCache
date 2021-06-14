@@ -36,7 +36,7 @@ namespace CG.Caching
         public static IServiceCollection AddNCacheStrategies(
             this IServiceCollection serviceCollection,
             IConfiguration configuration,
-            ServiceLifetime serviceLifetime = ServiceLifetime.Scoped
+            ServiceLifetime serviceLifetime
             )
         {
             // Validate the parameters before attempting to use them.
