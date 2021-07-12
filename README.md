@@ -5,6 +5,7 @@
 [![NuGet downloads](https://img.shields.io/nuget/dt/CG.Caching.NCache.svg?style=flat)](https://nuget.org/packages/CG.Caching.NCache)
 ![SqlServer DevOps coverage](https://img.shields.io/azure-devops/coverage/codegator/CG.Caching.NCache/64)
 [![Github discussion](https://img.shields.io/badge/Discussion-online-blue)](https://github.com/CodeGator/CG.Caching.NCache/discussions)
+[![CG.Caching.NCache on fuget.org](https://www.fuget.org/packages/CG.Caching.NCache/badge.svg)](https://www.fuget.org/packages/CG.Caching.NCache)
 
 #### What does it do?
 The package contains NCache extensions for the CG.Cache package.
@@ -19,6 +20,8 @@ PM> Install-Package CG.Caching.NCache
 
 #### How do I contact you?
 If you've spotted a bug in the code please use the project Issues [HERE](https://github.com/CodeGator/CG.Caching.NCache/issues)
+
+We have a discussion group [HERE](https://github.com/CodeGator/CG.Caching.NCache/discussions)
 
 #### Is there any documentation?
 There is developer documentation [HERE](https://codegator.github.io/CG.Caching.NCache/)
