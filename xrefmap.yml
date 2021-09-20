@@ -13,16 +13,16 @@ references:
   commentId: T:CG.Caching.ServiceCollectionExtensions
   fullName: CG.Caching.ServiceCollectionExtensions
   nameWithType: ServiceCollectionExtensions
-- uid: CG.Caching.ServiceCollectionExtensions.AddNCacheStrategies(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
-  name: AddNCacheStrategies(IServiceCollection, IConfiguration, ServiceLifetime)
-  href: api/CG.Caching.ServiceCollectionExtensions.html#CG_Caching_ServiceCollectionExtensions_AddNCacheStrategies_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_Microsoft_Extensions_DependencyInjection_ServiceLifetime_
-  commentId: M:CG.Caching.ServiceCollectionExtensions.AddNCacheStrategies(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
-  fullName: CG.Caching.ServiceCollectionExtensions.AddNCacheStrategies(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration, Microsoft.Extensions.DependencyInjection.ServiceLifetime)
-  nameWithType: ServiceCollectionExtensions.AddNCacheStrategies(IServiceCollection, IConfiguration, ServiceLifetime)
-- uid: CG.Caching.ServiceCollectionExtensions.AddNCacheStrategies*
-  name: AddNCacheStrategies
-  href: api/CG.Caching.ServiceCollectionExtensions.html#CG_Caching_ServiceCollectionExtensions_AddNCacheStrategies_
-  commentId: Overload:CG.Caching.ServiceCollectionExtensions.AddNCacheStrategies
+- uid: CG.Caching.ServiceCollectionExtensions.AddNCacheCachingStrategies(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  name: AddNCacheCachingStrategies(IServiceCollection, IConfiguration, ServiceLifetime)
+  href: api/CG.Caching.ServiceCollectionExtensions.html#CG_Caching_ServiceCollectionExtensions_AddNCacheCachingStrategies_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_Microsoft_Extensions_DependencyInjection_ServiceLifetime_
+  commentId: M:CG.Caching.ServiceCollectionExtensions.AddNCacheCachingStrategies(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  fullName: CG.Caching.ServiceCollectionExtensions.AddNCacheCachingStrategies(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration, Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  nameWithType: ServiceCollectionExtensions.AddNCacheCachingStrategies(IServiceCollection, IConfiguration, ServiceLifetime)
+- uid: CG.Caching.ServiceCollectionExtensions.AddNCacheCachingStrategies*
+  name: AddNCacheCachingStrategies
+  href: api/CG.Caching.ServiceCollectionExtensions.html#CG_Caching_ServiceCollectionExtensions_AddNCacheCachingStrategies_
+  commentId: Overload:CG.Caching.ServiceCollectionExtensions.AddNCacheCachingStrategies
   isSpec: "True"
-  fullName: CG.Caching.ServiceCollectionExtensions.AddNCacheStrategies
-  nameWithType: ServiceCollectionExtensions.AddNCacheStrategies
+  fullName: CG.Caching.ServiceCollectionExtensions.AddNCacheCachingStrategies
+  nameWithType: ServiceCollectionExtensions.AddNCacheCachingStrategies
