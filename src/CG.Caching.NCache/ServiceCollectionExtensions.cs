@@ -33,7 +33,7 @@ namespace CG.Caching
         /// <param name="serviceLifetime">The service lifetime to use for the operation.</param>
         /// <returns>The value of the <paramref name="serviceCollection"/> 
         /// parameter, for chaining calls together.</returns>
-        public static IServiceCollection AddNCacheStrategies(
+        public static IServiceCollection AddNCacheCachingStrategies(
             this IServiceCollection serviceCollection,
             IConfiguration configuration,
             ServiceLifetime serviceLifetime
